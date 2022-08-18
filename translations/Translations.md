@@ -69,3 +69,4 @@
 | <img alt="Беларуская мова" title="Беларуская мова"  src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/by.svg" width="22">                                                                                               | [Беларуская мова](README.by.md)                                                      |
 | <img title="Azərbaycan dili" alt="Azərbaycan dili" src="https://cdn.statically.io/flags/az.svg" width="22">                                                                                                                                         | [Azərbaycan dili](translations/README.aze.md)                           |
 | <img title="Bosanski" alt="Bosanski" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/ba.svg" width="22">             |[Bosanski](README.bih.md)
+| <img title="Uzbek" alt="Uzbek" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/uz.svg" width="22">             |[Uzbekistan](README.uz.md)
