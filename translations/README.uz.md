@@ -3,115 +3,113 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-# İlk töhfələr
+# Birinchi hissalar
 
-Bu layihə yeni başlayanlar üçün ilk töhfələrini vermə yollarını sadələşdirmək və yol göstərmək məqsədi daşıyır. İlk töhfənizi vermək istəyirsinizsə, aşağıdakı adımları tekrar edin.
+Ushbu loyiha yangi boshlanuvchilar uchun birinchi hissa qo'shish yo'lini soddalashtirish va yo'naltirishga qaratilgan. Agar siz birinchi hissangizni qo'shmoqchi bo'lsangiz, quyidagi amallarni takrorlang.
 
-_Əgər komut istemi (Command Prompt) ilə razı deyilsinizsə, [burada GUI alətlərindən istifadə edən təlimatlar tapa biləriniz.](#Digər-texnologiyalar-haqqında-təlim )_
+_Agar buyruq satri (Buyruqlar satri) sizga mos kelmasa, [GUI vositalaridan foydalanish koʻrsatmalarini shu yerda topishingiz mumkin.](#Boshqa texnologiyalar haqida-oʻrganish)_
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+<img align="o'ng" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="bu omborni ochish" />
 
-#### Kompüterinizdə GIT yoxdursa, [buradan quraşdıra bilərsiniz ](https://help.github.com/articles/set-up-git/).
+#### Agar kompyuteringizda GIT bo'lmasa, [uni shu yerda o'rnatishingiz mumkin](https://help.github.com/articles/set-up-git/).
 
-## layihəni "çatallama"
+## loyihani "vilkalar"
 
-Səhifənin yuxarı hissəsindəki "Fork" düyməsini vuraraq bu layihəni çəngəlləyin.
-Bu hesabınızda bu layihənin bir kopyasını yaradacaqdır.
+Sahifaning yuqori qismidagi "Fork" tugmasini bosish orqali ushbu loyihani mahkamlang.
+Bu sizning hisobingizda ushbu loyihaning nusxasini yaratadi.
 
-## Depoyu (Repository) klonlama
+## Repozitoriyni klonlash
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
+<img align="o'ng" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="ushbu omborni klonlash" />
 
-İndi çəngəlli depoyu kompüterinizə klonlayın. GitHub hesabınıza daxil olun, çəngəlli depoyu açın, kod düyməsini vurun və sonra _copy to clipboard_ klikləyin.
+Endi vilkalar omborini kompyuteringizga klonlang. GitHub hisob qaydnomangizga kiring, vilkalar omborini oching, kod tugmasini bosing va keyin _buferga nusxalash_ tugmasini bosing.
 
-Daha sonra komut istemini açın aşağıdaki git komutunu daxil edin:
-
-```
-git clone "kopyaladığınız-url"
-```
-"kopyaladığınız-url" (dırnaq işarəsi olmadan) yerine bu deponun GitHub səhifəsindən aldığınız linki kopyalayın.
-
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
-
-Misal üçün:
-```
-git clone https://github.com/kullanıcı-adi/first-contributions.git
-```
-`istifadəçi-adı` sizin GitHub istifadəçi adınız. Burada GitHub-dakı ilk töhfələr deposunun içindəkiləri kompüterinizə kopyalayırsınız.
-
-## Budağı (Branch) yaratmaq
-
-Kompüterinizdəki anbar qovluğuna keçin (əgər orada deyilsinizsə):
+Keyin buyruq satrini oching va quyidagi git buyrug'ini kiriting:
 
 ```
-cd first-contributions
+git clone "siz ko'chirdingiz-url"
 ```
-`git checkout` əmrini istifadə edərək bir Budağ (Branch) yaradın:
+Ushbu omborning GitHub sahifasidan olingan havolani “ko‘chirdingiz-url” o‘rniga nusxa oling (tirnoqsiz).
+
+<img align="o'ng" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="URLni vaqtinchalik xotiraga nusxalash" />
+
+Masalan:
 ```
-git checkout -b <sizin-yeni-budağ-adınız>
+git clone https://github.com/user-adi/first-contributions.git
+```
+“foydalanuvchi nomi” sizning GitHub foydalanuvchi nomingizdir. Bu yerda siz GitHub-dagi birinchi hissalar ombori tarkibini kompyuteringizga nusxalaysiz.
+
+## Filial yarating
+
+Kompyuteringizdagi ombor papkasiga o'ting (agar siz hali u erda bo'lmasangiz):
+
+```
+CD birinchi hissasi
+```
+"git checkout" buyrug'i yordamida filial yarating:
+```
+git checkout -b <sizning-yangi-filial-nomingiz>
 ```
 
-Misal üçün:
+Masalan:
 ```
-git checkout -b add-alonzo-church
+git checkout -b add-alonzo-cherkov
 ```
-(Budağ adının içinde *add* sözünün olması məcbur deyil, ancaq bu bölmənin məqsədi adınızı siyahıya əlavə etmək olduğu üçün daxil etmək məqbul bir şeydir.)
+(Filial nomida *qo‘shish* so‘zi bo‘lishi shart emas, lekin uni kiritish mumkin, chunki bu bo‘limning maqsadi sizning ismingizni ro‘yxatga qo‘shishdir.)
 
-## Lazımi dəyişiklikləri edin və bu dəyişiklikləri həyata keçirin
+## Kerakli o'zgarishlarni kiriting va ushbu o'zgarishlarni amalga oshiring
 
-İndi `Contributors.md` faylını mətn redaktorunda açın, adınızı əlavə edin. Faylın əvvəlinə və ya sonuna əlavə etməyin. Arada bir yerə qoyun. İndi faylı saxlayın.
+Endi matn muharririda "Contributors.md" faylini oching, ismingizni qo'shing. Faylning boshiga yoki oxiriga qo'shmang. Uni bir joyga qo'ying. Endi faylni saqlang.
 
-<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
+<img align="o'ng" width="450" ​​src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
-Layihə qovluğuna gedib `git status` əmrini icra etsəniz, dəyişikliklərin olduğunu görəcəksiniz.
+Agar siz loyiha jildiga o'tsangiz va "git status" buyrug'ini bajarsangiz, o'zgarishlarni ko'rasiz.
 
-Bu dəyişiklikləri `git add` əmrindən istifadə edərək yaratdığınız Budağa əlavə edin:
+Ushbu o'zgarishlarni "git add" buyrug'i yordamida yaratgan filialga qo'shing:
 
 ```
 git add Contributors.md
 ```
 
-İndi `git commit` əmrindən istifadə edərək bu dəyişiklikləri edin:
+Endi "git commit" buyrug'i yordamida ushbu o'zgarishlarni bajaring:
 
-adınızla `<your-name>` ilə əvəz olunsun.
+ismingizni `<ismingiz>` bilan almashtiring.
 
-## Dəyişiklikləri GitHub'a itələyin (push)
+## O'zgarishlarni GitHub-ga suring
 
-Dəyişikliklərinizi "git push" əmrindən istifadə edərək itələyin:
+"git push" buyrug'i yordamida o'zgartirishlaringizni suring:
 
 
 ```
-git push origin <add-your-branch-name>
+git push origin <sizning-filial-nomingizni qo'shing>
 ```
 
-`<add-your-branch-name>` yerine öz istifadəçi adınızı daxil edin.
+`<filial-ismingizni qo'shish>` o'rniga o'zingizning foydalanuvchi nomingiz bilan almashtiring.
 
-## Dəyişikliklərinizi nəzərdən keçirmək üçün göndərin
+## O'zgartirishlaringizni ko'rib chiqish uchun yuboring
 
-GitHub-dakı anbarınıza daxil olsanız, bir `Compare & pull request` düyməsini görəcəksən. Bu düyməni vurun.
+Agar siz GitHub’dagi omboringizga kirsangiz, “So‘rovni solishtiring va tortib oling” tugmasini ko‘rasiz. Ushbu tugmani bosing.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="tortish so'rovini yaratish" />
 
-İndi çəkmə tələbini (pull request) göndərin.
+Hoziroq tortib olish soʻrovini yuboring.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="tortib olish so'rovini yuborish" />
 
-Tezliklə bütün dəyişikliklərinizi bu layihənin master filialına birləşdirəcəyəm. Dəyişikliklər birləşdirildikdən sonra bildiriş e-poçtu alacaqsınız.
+Men sizning barcha o'zgarishlaringizni tez orada ushbu loyihaning asosiy bo'limiga birlashtiraman. O'zgartirishlar birlashtirilgandan so'ng sizga elektron pochta xabarnomasi keladi.
 
-## Bundan sonra nə edə bilərəm?
+## Keyin nima qila olaman?
 
-Təbriklər! Töhfə olaraq tez-tez qarşılaşacağınız standart _fork -> clone -> edit -> pull request_ tamamlamısınız!
+Tabriklaymiz! Hissa sifatida siz tez-tez duch keladigan standart _fork -> klon -> tahrirlash -> pull so'rovini bajardingiz!
 
-Töhfənizi qeyd edin və [veb tətbiqetmə](https://firstcontributions.github.io/#social-share) girərək dostlarınız və izləyicilərinizlə bölüşün.
+Hissangizni yozib oling va [veb ilovaga](https://firstcontributions.github.io/#social-share) kirish orqali uni doʻstlaringiz va izdoshlaringiz bilan baham koʻring.
 
-Hər hansı bir köməyə ehtiyacınız varsa və ya suallarınız varsa, [Slack](https://join.slack.com/t/firstcontributors/shared_invite/zt-iywfifau-_aMtdwTjBoMzQqzW8~YUUA) komandamıza qoşula bilərsiniz.
+Agar sizga yordam kerak bo'lsa yoki savollaringiz bo'lsa, [Slack] (https://join.slack.com/t/firstcontributors/shared_invite/zt-iywfifau-_aMtdwTjBoMzQqzW8~YUUA) orqali jamoamizga qo'shilishingiz mumkin.
 
-İndi başqa layihələrə töhfə verməyə başlayaq. Başlaya biləcəyiniz asan məsələləri olan layihələrin siyahısını hazırladıq, [Siyahıya baxın](https://firstcontributions.github.io/#project-list).
+Endi boshqa loyihalarga hissa qo'shishni boshlaylik. Biz boshlashingiz mumkin boʻlgan oson masalalar bilan loyihalar roʻyxatini tuzdik, [Roʻyxatni koʻring](https://firstcontributions.github.io/#project-list).
 
-### [Əlavə Məlumat](additional-material/git_workflow_scenarios/additional-material.md)
+### [Qo'shimcha ma'lumot](additional-material/git_workflow_scenarios/additional-material.md)
 
-## Digər texnologiyalar haqqında təlim
+## Boshqa texnologiyalar bo'yicha trening
 
-| <a href="gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a> | <a href="gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="./assets/gk-icon.png" width="100"></a> | <a href="gui-tool-tutorials/github-windows-vs-code-tutorial.md"><img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg" width=100></a> | <a href="gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> | <a href="gui-tool-tutorials/github-windows-intellij-tutorial.md"><img alt="IntelliJ IDEA" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/IntelliJ_IDEA_Logo.svg" width=100></a> |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [GitHub Desktop](gui-tool-tutorials/github-desktop-tutorial.md)                                                                                             | [Visual Studio 2017](gui-tool-tutorials/github-windows-vs2017-tutorial.md)                                                                                                                          | [GitKraken](gui-tool-tutorials/gitkraken-tutorial.md)                                                               | [Visual Studio Code](gui-tool-tutorials/github-windows-vs-code-tutorial.md)                                                                                                                  | [Atlassian Sourcetree](gui-tool-tutorials/sourcetree-macos-tutorial.md)                                                                                                                                      | [IntelliJ IDEA](gui-tool-tutorials/github-windows-intellij-tutorial.md)                                                                                                                   |
+| <a href="gui-tool-tutorials/github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" kengligi ="100"></a> | <a href="gui-tool-tutorials/github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/c/ cd/Visual_Studio_2017_Logo.svg" width="100"></a> | <a href="gui-tool-tutorials/gitkraken-tutorial.md"><img alt="GitKraken" src="./assets/gk-icon.png" width="100"></a> | <a href="gui-tool-tutorials/github-windows-vs-
